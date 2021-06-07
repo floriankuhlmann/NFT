@@ -1,0 +1,139 @@
+<html>
+<head>
+    <title>psychedelic office | desktopsculpture rgb no 1 - florian kuhlmann - 2021</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta property="og:title" content="psychedelic office | desktopsculpture rgb no 1">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="desktopsculpture_rgb_ograph.jpg">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="psychedelic office | desktopsculpture rgb no 1 - a digital piece by florian kuhlmann">
+    <meta name="keywords" content="psychedelic, office, business, sculpture">
+    <meta name="author" content="Florian Kuhlmann">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-icon.png">
+    <style type="text/css">
+        body {
+            width: 100%;
+            height: 100%;
+            padding: 0px;
+            margin: 0px;
+            background: url('Green_cabinet.gif');
+            background-blend-mode: multiply;
+            background-color: rgb(255,0,0);
+        }
+
+        .imageContainer {
+            cursor: pointer;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 240px;
+            height: 300px;
+            padding: 20px;
+            margin:-170px 0 0 -140px;
+            background: url('File_cabinet_walks.gif');
+        }
+
+        @media screen and (min-width: 480px) {
+            .imageContainer {
+                width: 280px;
+                height: 350px;
+                padding: 25px;
+                margin:-200px 0 0 -165px;
+            }
+        }
+
+        @media screen and (min-width: 640px)  {
+            .imageContainer {
+                width: 400px;
+                height: 500px;
+                padding: 35px;
+                margin:-285px 0px 0px -235px;
+            }
+        }
+
+        @media screen and (min-width: 1200px)  {
+            .imageContainer {
+                width: 500px;
+                height: 620px;
+                padding: 40px;
+                margin:-350px 0px 0px -290px;
+            }
+        }
+
+        @media screen and (min-width: 1500px)  {
+            .imageContainer {
+                width: 640px;
+                height: 800px;
+                padding: 40px;
+                margin:-440px 0px 0px -360px;
+            }
+        }
+
+        @media screen and (min-width: 1800px)  {
+            .imageContainer {
+                width: 800px;
+                height: 1000px;
+                padding: 50px;
+                margin:-550px 0px 0px -450px;
+            }
+        }
+
+        .imageContainerImg {
+            content: "";
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-image: url("ds_rgb_tassen_bw.png");
+            background-blend-mode: difference, overlay;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-in-out;
+            animation-name: background-color-animation;
+        }
+
+        @keyframes background-color-animation {
+            0% {
+                background-color: red;
+                box-shadow: 1px 1px 52px 6px rgba(255, 0, 0, 0.75);
+                -webkit-box-shadow: 1px 1px 52px 6px rgba(255, 0, 0, 0.75));
+                -moz-box-shadow: 1px 1px 52px 6px rgba(255, 0, 0, 0.75);
+            }
+
+            50% {
+                background-color: blue;
+                box-shadow: 1px 1px 52px 6px rgba(0, 0, 255, 0.75);
+                -webkit-box-shadow: 1px 1px 52px 6px rgba(0, 0, 255, 0.75);
+                -moz-box-shadow: 1px 1px 52px 6px rgba(0, 0, 255, 0.75);
+            }
+
+            100% {
+                background-color: green;
+                box-shadow: 1px 1px 52px 6px rgba(0, 255, 0, 0.75);
+                -webkit-box-shadow: 1px 1px 52px 6px rgba(0, 255, 0, 0.75);
+                -moz-box-shadow: 1px 1px 52px 6px rgba(0, 255, 0, 0.75);
+            }
+        }
+    </style>
+    <script type="application/javascript">
+        let isSoundOn = false;
+        let officePlayerCtrl = function () {
+            if (isSoundOn === false ) {
+                document.getElementById('officeSound').play();
+                isSoundOn = true;
+                return;
+            }
+            document.getElementById('officeSound').pause();
+            isSoundOn = false;
+        }
+    </script>
+</head>
+<body>
+    <audio src="office.ogg" loop="loop" id="officeSound"></audio>
+    <div class="imageContainer">
+        <a href="desktopsculpture_rgb_1.zip" onclick="officePlayerCtrl();"><div class="imageContainerImg"></div></a>
+    </div>
+</body>
+</html>
