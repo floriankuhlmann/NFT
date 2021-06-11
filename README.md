@@ -14,6 +14,8 @@ https://www.hicetnunc.xyz/tz/tz1LnELzbJ4mSoyNuxBSnkGZ6jmvjtck8ohp
 + desktopscultpure RGB 2
 + desktopscultpure RGB 3
 + buy memes
++ sacred geometry 1
++ sacred geometry 2
 
 These original netart-works can also be visited direct via browser on:
 https://floriankuhlmann.com/netart/NFTs
@@ -23,7 +25,6 @@ https://floriankuhlmann.com/netart/NFTs
 + desktopscultpure RGB 3
 + buy memes
 + visitors form inner space 1
-+ sacred geometry 1
-+ sacred geometry 2
+
  
 
