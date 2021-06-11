@@ -1,14 +1,15 @@
 <html>
 <head>
-    <title>SACRED GEOMETRY</title>
+    <title>SACRED GEOMETRY 2</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta property="og:title" content="sacred geometry">
+    <meta property="og:title" content="sacred geometry 2">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="sacred-geometry_2_ograph.jpg">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="sacred geometry - a digital piece by florian kuhlmann">
+    <meta name="description" content="sacred geometry 2 - a digital piece by florian kuhlmann">
     <meta name="keywords" content="geometry, psychedelic, sacred, minds, space">
     <meta name="author" content="Florian Kuhlmann">
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="favicon-16x16.png">
     <link rel="apple-touch-icon" href="apple-icon.png">
     <style type="text/css">
         body {
@@ -16,9 +17,7 @@
             height: 100%;
             padding: 0px;
             margin: 0px;
-            background: url('julia04.jpeg');
-            /*background-blend-mode: luminosity;
-            background-color: rgb(255,0,0);*/
+            background: url('julia_bg.jpeg');
             background-position: center; /* Center the image */
             background-repeat: no-repeat; /* Do not repeat the image */
             background-size: cover; /* Resize the background image to cover the entire container */
@@ -50,7 +49,7 @@
             top: -50%;
             left: -50%;
             z-index: -1;
-            background: url('julia04.jpeg') repeat center;
+            background: url('julia_bg.jpeg') repeat center;
             animation-name: rotateBg;
             animation-duration: 500s;
             animation-iteration-count: infinite;
@@ -152,15 +151,15 @@
             height: 100%;
             background-size: cover;
             background-position: center; /* Center the image */
-        background-blend-mode: luminosity;
+            background-blend-mode: luminosity;
             animation-duration: 12s;
             animation-iteration-count: infinite;
             animation-timing-function: ease-in-out;
-        background-color: rgba(255, 0, 0, 1);
+            background-color: rgba(255, 0, 0, 1);
             box-shadow: 1px 1px 52px 6px rgba(255, 0, 0, 0.75);
             -webkit-box-shadow: 1px 1px 52px 6px rgba(255, 0, 0, 0.75);
             -moz-box-shadow: 1px 1px 52px 6px rgba(255, 0, 0, 0.75);
-            background-image: url("2020_02_21-sacred-geometry-study_2_1.png");
+            background-image: url("sacred-geometry.png");
             border: 1px solid rgba(255, 255, 255, 1);
             animation-name: background-color-and-image-animation;
 
@@ -193,51 +192,20 @@
                 box-shadow: 1px 1px 52px 6px rgba(255, 0, 0, 0.75);
                 -webkit-box-shadow: 1px 1px 52px 6px rgba(255, 0, 0, 0.75);
                 -moz-box-shadow: 1px 1px 52px 6px rgba(255, 0, 0, 0.75);
-
             }
         }
-
-        img.mario {
-            position: absolute;
-            right:0px;
-            bottom: 0px;
-        }
-
-        img.stonehenge-horizon {
-            position: absolute;
-            right:0px;
-            bottom: 0px;
-            width: 100%;
-        }
-
     </style>
-    <script type="application/javascript">
-        let isSoundOn = false;
-        let memesPlayerCtrl = function () {
-            if (isSoundOn === false ) {
-                document.getElementById('officeSound').play();
-                isSoundOn = true;
-                return;
-            }
-            document.getElementById('officeSound').pause();
-            isSoundOn = false;
-        }
-    </script>
 </head>
 <body>
-<audio src="matrix.wav" loop="loop" id="officeSound"></audio>
-<div class="bodybox">
-    <!-- rotating bg -->
-    <div class="bodybg"></div>
-    <!-- rotating bg -->
-    <!-- graphic container -->
-    <div class="imageContainer">
-        <a href="buy_memes.zip" onclick="memesPlayerCtrl();">
-            <div class="imageContainerImg">
-            </div>
-        </a>
+    <div class="bodybox">
+        <!-- rotating bg -->
+        <div class="bodybg"></div>
+        <!-- rotating bg -->
+        <!-- graphic container -->
+        <div class="imageContainer">
+            <div class="imageContainerImg"></div>
+        </div>
+        <!-- graphic container -->
     </div>
-    <!-- graphic container -->
-</div>
 </body>
 </html>
